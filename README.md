@@ -1,2 +1,2 @@
-# Even-Manager
-Even Manager
+# Notefore
+Simple event manager.
