@@ -1,1 +1,2 @@
-Notefore - simple event manager.
+# Notefore. 
+Simple event manager.
