@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -9,11 +9,7 @@ function App() {
           <div>
               <button type="button">Click Me</button>
           </div>
-          
         );
-  
-  
-
 
 
   );
