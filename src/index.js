@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import './index.css';
 import TodoApp from './ToDoApp';
 
@@ -11,11 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
-  <HashRouter >
+    <HashRouter >
 
-  <TodoApp/>
+        <TodoApp/>
 
-  </HashRouter>,
+    </HashRouter>,
   document.getElementById('root')
 );
 
