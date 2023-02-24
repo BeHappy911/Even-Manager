@@ -5,15 +5,19 @@ import TodoApp from './ToDoApp';
 
 import reportWebVitals from './reportWebVitals';
 
+import {BrowserRouter, HashRouter} from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(
-  <React.StrictMode>
-    <TodoApp />
-  </React.StrictMode>
-);
 
-root.render(<TodoApp />);
+root.render(
+  <HashRouter >
+
+  <TodoApp/>
+
+  </HashRouter>,
+  document.getElementById('root')
+);
 
 
 reportWebVitals();
