@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css';
-import TodoApp from './ToDoApp';
+import Login_form from './Pages/Login_form';
+import Header from './Pages/Header';
+import Footer from './Pages/Footer';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -13,13 +15,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <HashRouter >
-
-        <h1>Hello</h1>
-
-        <TodoApp/>
-
-    </HashRouter>,
-  document.getElementById('root')
+        < Header/>
+        < Login_form/>
+        < Footer/>
+    </HashRouter>
+  //, document.getElementById('root')
 );
 
 
